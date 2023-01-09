@@ -10,4 +10,9 @@ public class FirstController {
     public String getResult(){
         return "This is Result";
     }
+
+    @GetMapping("/newResult")
+    public String getNewResult(){
+       return "This is new result";
+    }
 }
